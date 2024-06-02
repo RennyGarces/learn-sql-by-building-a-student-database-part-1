@@ -341,3 +341,5 @@ cp courses.csv courses_test.csv
 nano courses_test.csv
 nano courses_test.csv
 nano courses_test.csv
+nano courses_test.csv
+nano insert_data.sh
