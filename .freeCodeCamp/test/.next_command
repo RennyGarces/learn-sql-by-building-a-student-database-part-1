@@ -333,3 +333,8 @@ nano insert_data.sh
 nano insert_data.sh
 nano insert_data.sh
 nano insert_data.sh
+cp courses.csv courses.test.csv
+ls --color=auto
+rm courses.test.csv
+ls --color=auto
+cp courses.csv courses_test.csv
