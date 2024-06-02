@@ -345,3 +345,6 @@ nano courses_test.csv
 nano insert_data.sh
 nano insert_data.sh
 ./insert_data.sh
+cat courses_test.csv
+nano insert_data.sh
+nano insert_data.sh
