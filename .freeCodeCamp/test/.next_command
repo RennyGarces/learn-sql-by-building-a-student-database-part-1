@@ -370,3 +370,5 @@ nano insert_data.sh
 nano insert_data.sh
 nano insert_data.sh
 clear
+nano insert_data.sh
+./insert_data.sh
