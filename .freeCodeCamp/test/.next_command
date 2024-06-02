@@ -350,3 +350,9 @@ nano insert_data.sh
 nano insert_data.sh
 psql --username=freecodecamp --dbname=postgres
 ./insert_data.sh
+nano insert_data.sh
+nano insert_data.sh
+nano insert_data.sh
+nano insert_data.sh
+nano insert_data.sh
+nano insert_data.sh
