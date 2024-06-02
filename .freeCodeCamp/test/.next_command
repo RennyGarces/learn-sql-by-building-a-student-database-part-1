@@ -348,3 +348,4 @@ nano insert_data.sh
 cat courses_test.csv
 nano insert_data.sh
 nano insert_data.sh
+psql --username=freecodecamp --dbname=postgres
