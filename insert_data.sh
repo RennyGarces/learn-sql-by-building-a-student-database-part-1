@@ -39,8 +39,9 @@ do
       fi
 
       # get new course_id
-
-    fi
+    COURSE_ID=$( $PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
+    
+fi
 
     # insert into majors_courses
 
