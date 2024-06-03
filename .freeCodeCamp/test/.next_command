@@ -462,3 +462,4 @@ nano insert_data.sh
 nano insert_data.sh
 ./insert_data.sh
 psql --username=freecodecamp --dbname=postgres
+cp students.csv students_test.csv
