@@ -467,3 +467,4 @@ nano students_test.csv
 nano students_test.csv
 nano insert_data.sh
 nano insert_data.sh
+./insert_data.sh
