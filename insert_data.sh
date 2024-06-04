@@ -45,21 +45,24 @@ do
 
     # insert into majors_courses
     INSERT_MAJORS_COURSES_RESULT=$($PSQL "INSERT INTO majors_courses(major_id, course_id) VALUES($MAJOR_ID, $COURSE_ID)")
-  
-if [[ $INSERT_MAJORS_COURSES_RESULT == "INSERT 0 1" ]]
-then
-  echo Inserted into majors_courses, $MAJOR : $COURSE
-fi
-fi
+    if [[ $INSERT_MAJORS_COURSES_RESULT == "INSERT 0 1" ]]
+    then
+      echo Inserted into majors_courses, $MAJOR : $COURSE
+    fi
+  fi
 done
 
 cat students_test.csv | while IFS="," read FIRST LAST MAJOR GPA
 do
-if [[ $FIRST != first_name ]]
-then
-#get major_id 
-#if not found
-#set to null
-#insert student
-fi
+  if [[ $FIRST != "first_name" ]]
+  then
+    # get major_id
+  MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
+    # if not found
+
+    # set to null
+
+    # insert student
+
+  fi
 done
