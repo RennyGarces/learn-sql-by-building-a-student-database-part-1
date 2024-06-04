@@ -604,3 +604,5 @@ nano insert_data.sh
 nano insert_data.sh
 nano insert_data.sh
 nano insert_data.sh
+nano insert_data.sh
+./insert_data.sh
