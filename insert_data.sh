@@ -65,7 +65,8 @@ do
   if [[ -z $MAJOR_ID ]]
   then
     #set to null
-   fi
+    MAJOR_ID=null   
+fi
 
     # set to null
 
